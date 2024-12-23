@@ -3,16 +3,15 @@
 
 <center>Group # 1:</center>
 
-<center>Gui Moraes Brant De Almeida: 251301839</center>
+Gui Moraes Brant De Almeida: 251301839
 
-<center>Joel Friesen Waldner: 251303569</center>
+Joel Friesen Waldner: 251303569
 
-<center>Addy Virk: 251311740</center>
+Addy Virk: 251311740
 
-<center>Cristian Forero Duenas:250998245</center>
+Cristian Forero Duenas:250998245
 
-<br>
-<center>Due December 20, 2024</center>
+Completed December 20, 2024
 
 # <b>1. Introduction</b>
 
