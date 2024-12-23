@@ -296,10 +296,9 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="https://drive.google.com/uc?id=[1q7IODxC_w1vHBXSBXaXGRMlAKpyNF3Gd](https://drive.google.com/file/d/1zvyRxiKgSJ8b5NVHofTwCPK8NbQQMy5k/view?usp=drive_link)
-" width="500">
+      <img src="https://drive.google.com/uc?id=1q7IODxC_w1vHBXSBXaXGRMlAKpyNF3Gd" width="319">
       <br>
-      <span>Figure 11: Complex M&M Image</span>
+      <span>Figure 1: M&M Image 1</span>
     </td>
   </tr>
 </table>
@@ -311,18 +310,17 @@ Figure|Red|Orange|Blue|Green|Yellow|Brown|Total Count|
 ------|---|------|----|-----|------|-----|-----------|
 11    | 29|    36| 24 |   33|    28|   28|        178|
 
-
 \
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="https://drive.google.com/uc?id=[1LdlSS1fvEXhZAX9O6DvUwIoR-vkJq9Ul](https://drive.google.com/file/d/1N_Y_bcRcA9sCvUMJz7yY3EPhC9RmbosM/view?usp=drive_link)
-" width="700">
+      <img src="https://drive.google.com/uc?id=1LdlSS1fvEXhZAX9O6DvUwIoR-vkJq9Ul" width="319">
       <br>
-      <span>Figure 12: M&M Image Complex Results</span>
+      <span>Figure 1: M&M Image 1</span>
     </td>
   </tr>
 </table>
+
 
 \
 **Table 9: Code Result**
