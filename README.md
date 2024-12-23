@@ -6,7 +6,7 @@ Group # 1
 Gui Moraes Brant De Almeida: 251301839\
 Joel Friesen Waldner: 251303569\
 Addy Virk: 251311740\
-Cristian Forero Duenas:250998245
+Cristian Forero Duenas: 250998245
 
 Completed December 20, 2024
 
