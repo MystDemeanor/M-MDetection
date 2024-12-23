@@ -28,7 +28,7 @@ Designing a model to distinguish between different coloured M&Ms is foundational
 
 To count the number of candies in an image by their colour, a pre-trained segmentation model was implemented to identify candies, and then an unsupervised ML model was applied to group colours. Pretrained models provide the benefits of deep learning approaches without requiring large amounts of existing training data.
 
-*(**2.1 Model Selection**)*
+***2.1 Model Selection***
 
 Three pre-trained models with zero-shot capabilities were researched and tested to find the best model for the candy inventory system. First was [You Only Look Once version 11 (YOLO11)](https://arxiv.org/abs/1506.02640) [[3]](#3), the latest iteration of one of the most popular image identification models. YOLO11 is an incredibly versatile object detection algorithm that can be used for segmentation, pose estimation, object recognition, and image classification. When tested on images of M&M candies, the model identified the different candies and attempted to provide a label, guessing what each object was.
 
@@ -62,7 +62,7 @@ Using predefined ranges is highly efficient as it is practically computationally
 
 To improve robustness, future work could implement a deep learning approach to colour identification that groups colours based on an understanding of the luminance and colour pallet of the entire image. This approach was not implemented in this project due to a lack of training data.
 
-#**3. Results**
+# **3. Results**
 
 ***User Manual***
 
@@ -73,18 +73,7 @@ To improve robustness, future work could implement a deep learning approach to c
 5. **Clear or Reset:** Press the ‘Clear’ button to go back to the original interface before any image analysis or press “Load Image” to import another image
 6. **Exit:** Exit the interface by closing the application.
 
-#**3. Results**
-
-***User Manual***
-
-1. **Install Dependencies:** When running the main code cell, the code will automatically install the required Python libraries. Wait for the installation to complete so the necessary libraries are installed and the interface appears.
-2. **Upload Required Files:** In the interface, press the “Choose File” button when prompted to upload the images of M&Ms.
-3. **Process the Image and View Results:** After uploading the image, click the “Process Image” button in the interface. Wait for the program to complete the segmentation and colour detection. The text output will display the total number of M&Ms detected and the count for each colour. Then, an image of the analyzed picture will be displayed with boxes around the detected M&Ms.
-4. **Save Results:** Press the “Save Results” button to save the results as a JSON file on your local machine.
-5. **Clear or Reset:** Press the ‘Clear’ button to go back to the original interface before any image analysis or press “Load Image” to import another image
-6. **Exit:** Exit the interface by closing the application.
-
-#**3.1 Simple Image Analysis**
+# **3.1 Simple Image Analysis**
 
 \
 ***3.1.1 Actual vs Code Results***
@@ -290,7 +279,7 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
 </table>
 
 \
-#**3.2 Complex Image Analysis**
+# **3.2 Complex Image Analysis**
 
 \
 ***3.2.1 Actual vs Code Results***
@@ -378,7 +367,7 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
 11     |  0.9    | 0.87 | 0.88   | 0.96   |   0.94|
 
 \
-#**3.3 Comparing Both Simple and Complex Image Analysis**
+# **3.3 Comparing Both Simple and Complex Image Analysis**
 
 \
 <table>
@@ -399,7 +388,7 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
   <tr>
 </table>
 
-#**4. Discussion**
+# **4. Discussion**
 
 #**4.1 Simple Image Evaluation**
 
@@ -543,7 +532,7 @@ Image recognition technology has transformed industries and society, offering so
 
 While this technology can potentially improve lives and foster innovation, addressing these challenges through fairness, inclusivity, and transparency is essential to ensure equitable and sustainable benefits.
 
-#**5. Conclusion**
+# **5. Conclusion**
 
 Through this project, key strategies of computer vision were researched and applied to task of image recongnition and counting. Computer vision was explored through testing pre-trained models, optimzing their performance, and analyzing their efficiency. Discussion was carried out on the importance of model specialization, the model's sensitivity to environmental conditions, the model's scalability, and the applications and ethical concerns of rapidily evolving AI.
 
@@ -556,7 +545,7 @@ Throughout testing, it became clear that the model was efficient and could ident
 
 Finally, to conclude the project, the potential applications of Image Recognition software are straightforward and vast, allowing computers to "see," expanding the realm of automation to the visual dimension. This completely removes the human aspect of several processes, like taking the tally of goods for trading or even driving. The project also exposed the threat this could pose to society, as computers may invade others' privacy without their knowledge. Finally, this could have economic impacts, affecting several jobs through improving processes.
 
-#**6. References**
+# **6. References**
 <a id="1">[1]</a> Microsoft Azure. “What is computer vision?” Object classification and more. Retrieved December 2, 2024, from https://azure.microsoft.com/en-ca/resources/cloud-computing-dictionary/what-is-computer-vision#object-classification
 
 <a id="2">[2]</a> IBM. “Computer vision: Overview and applications,” Retrieved December 2, 2024, from https://www.ibm.com/topics/computer-vision
