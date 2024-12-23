@@ -298,7 +298,7 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
     <td style="text-align: center;">
       <img src="https://drive.google.com/uc?id=1q7IODxC_w1vHBXSBXaXGRMlAKpyNF3Gd" width="319">
       <br>
-      <span>Figure 1: M&M Image 1</span>
+      <span>Figure 11: Complex M&M Image</span>
     </td>
   </tr>
 </table>
@@ -316,7 +316,7 @@ Figure|Red|Orange|Blue|Green|Yellow|Brown|Total Count|
     <td style="text-align: center;">
       <img src="https://drive.google.com/uc?id=1LdlSS1fvEXhZAX9O6DvUwIoR-vkJq9Ul" width="319">
       <br>
-      <span>Figure 1: M&M Image 1</span>
+      <span>Figure 12: M&M Image Complex Results</span>
     </td>
   </tr>
 </table>
