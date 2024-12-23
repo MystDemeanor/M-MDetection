@@ -24,11 +24,11 @@ Designing a model to distinguish between different coloured M&Ms is foundational
 
  In general, insights gained from these models can be scaled to more complex tasks, such as object detection in autonomous vehicles, medical imaging, or sorting systems in industries like manufacturing or package handling.
 
-#**2. Methodology**
+# **2. Methodology**
 
 To count the number of candies in an image by their colour, a pre-trained segmentation model was implemented to identify candies, and then an unsupervised ML model was applied to group colours. Pretrained models provide the benefits of deep learning approaches without requiring large amounts of existing training data.
 
-***2.1 Model Selection***
+*(**2.1 Model Selection**)*
 
 Three pre-trained models with zero-shot capabilities were researched and tested to find the best model for the candy inventory system. First was [You Only Look Once version 11 (YOLO11)](https://arxiv.org/abs/1506.02640) [[3]](#3), the latest iteration of one of the most popular image identification models. YOLO11 is an incredibly versatile object detection algorithm that can be used for segmentation, pose estimation, object recognition, and image classification. When tested on images of M&M candies, the model identified the different candies and attempted to provide a label, guessing what each object was.
 
