@@ -10,6 +10,7 @@
 <center>Due December 20, 2024</center>
 
 #**1. Introduction**
+
 Image recognition (IR) is an integral part of modern artificial intelligence (AI) and and one of the most studied subfields of [computer vision](https://azure.microsoft.com/en-ca/resources/loud-computing-dictionary/what-is-computer-vision#object-classification) [[1]](#1)[[2]](#2). It enables machines to interpret and analyze visual information, which can come from a live camera feed or from pictures. IR is the foundation of numerous cyber-physical systems applications, from autonomous vehicles and facial recognition systems to healthcare diagnostics and industrial automation.
 
 The ability to process and understand images effectively has revolutionized technology and influenced several industries, rewriting how data is used to solve real-world problems. One of the most important features of IR is its ability to accurately classify and differentiate between similar objects. A task that serves as an excellent gateway to explore this type of IR is using machine learning models to distinguish between different M&Ms and count them grouped by colours.
@@ -19,6 +20,7 @@ Designing a model to distinguish between different coloured M&Ms is foundational
  In general, insights gained from these models can be scaled to more complex tasks, such as object detection in autonomous vehicles, medical imaging, or sorting systems in industries like manufacturing or package handling.
 
 #**2. Methodology**
+
 To count the number of candies in an image by their colour, a pre-trained segmentation model was implemented to identify candies, and then an unsupervised ML model was applied to group colours. Pretrained models provide the benefits of deep learning approaches without requiring large amounts of existing training data.
 
 ***2.1 Model Selection***
@@ -66,6 +68,17 @@ To improve robustness, future work could implement a deep learning approach to c
 5. **Clear or Reset:** Press the ‘Clear’ button to go back to the original interface before any image analysis or press “Load Image” to import another image
 6. **Exit:** Exit the interface by closing the application.
 
+#**3. Results**
+
+***User Manual***
+
+1. **Install Dependencies:** When running the main code cell, the code will automatically install the required Python libraries. Wait for the installation to complete so the necessary libraries are installed and the interface appears.
+2. **Upload Required Files:** In the interface, press the “Choose File” button when prompted to upload the images of M&Ms.
+3. **Process the Image and View Results:** After uploading the image, click the “Process Image” button in the interface. Wait for the program to complete the segmentation and colour detection. The text output will display the total number of M&Ms detected and the count for each colour. Then, an image of the analyzed picture will be displayed with boxes around the detected M&Ms.
+4. **Save Results:** Press the “Save Results” button to save the results as a JSON file on your local machine.
+5. **Clear or Reset:** Press the ‘Clear’ button to go back to the original interface before any image analysis or press “Load Image” to import another image
+6. **Exit:** Exit the interface by closing the application.
+
 #**3.1 Simple Image Analysis**
 
 \
@@ -76,17 +89,17 @@ To improve robustness, future work could implement a deep learning approach to c
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.1\MM1.png" width="319">
+      <img src="https://drive.google.com/uc?id=10SjA0ThbY0L8GAb_znRQM4WGlGLDVLwG" width="319">
       <br>
       <span>Figure 1: M&M Image 1</span>
     </td>
     <td style="text-align: center;">
-      <img src="Images\3.1\MM2.png" width="410">
+      <img src="https://drive.google.com/uc?id=1aFNcDB4zcmC44cJDpUaibRnlbvIY5g6c" width="410">
       <br>
       <span>Figure 2: M&M Image 2</span>
     </td>
     <td style="text-align: center;">
-      <img src="Images\3.1\MM3.png" width="310">
+      <img src="https://drive.google.com/uc?id=17DNn5sLmimZqcOJJLxceHhuCGWaf5ZGw" width="310">
       <br>
       <span>Figure 3: M&M Image 3</span>
     </td>
@@ -107,21 +120,21 @@ Figure|Red|Orange|Blue|Green|Yellow|Brown|Total Count|
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.1\Result1.png" width="700">
+      <img src="https://drive.google.com/uc?id=1wb-j38BuAVwvHLGrA9tBwlhg7Dqr6TvL" width="700">
       <br>
       <span>Figure 4: M&M Image 1 Results</span>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.1\Result2.png" width="700">
+      <img src="https://drive.google.com/uc?id=1811vdFFi0N9zq-UD_RZiW7aM7YT5AQvO" width="700">
       <br>
       <span>Figure 5: M&M Image 2 Results</span>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.1\Result3.png" width="700">
+      <img src="https://drive.google.com/uc?id=1VvsZtbYlONJmA7dv27uoce_eY7eFrrVT" width="700">
       <br>
       <span>Figure 6: M&M Image 3 Results</span>
     </td>
@@ -205,17 +218,17 @@ Figure|Total TP| Total FP| Total TN | Total FN|
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.1\Figure_1_Confusion_Matrix.png" width="400">
+      <img src="https://drive.google.com/uc?id=1bNa8dnfoRYuDNDAoxqkVL6KW37Ati0Eo" width="400">
       <br>
       <span>Figure 7: CM for Code Analysis Figure 1</span>
     </td>
     <td style="text-align: center;">
-      <img src="Images\3.1\Figure_2_Confusion_Matrix.png" width="400">
+      <img src="https://drive.google.com/uc?id=1gvU_Kk-SXZqRuDBzwkpOly8TJhO_X3gD" width="400">
       <br>
       <span>Figure 8: CM for Code Analysis Figure 2</span>
     </td>
     <td style="text-align: center;">
-      <img src="Images\3.1\Figure_3_Confusion_Matrix.png" width="400">
+      <img src="https://drive.google.com/uc?id=189oYROPLzEoA7xrF2S8-nWt6SjAKgV-O" width="400">
       <br>
       <span>Figure 9: CM for Code Analysis Figure 3</span>
     </td>
@@ -256,14 +269,14 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.1\Evaluation_Metric_Comparison.png" width="600">
+      <img src="https://drive.google.com/uc?id=1AxsdhJi58wwDb-UuSbFjbQ7AFGx8tj_a" width="600">
       <br>
       <span>Figure 10: Evaluation Metric Comparison for Figures</span>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.1\ROC_Curves.png" width="600">
+      <img src="https://drive.google.com/uc?id=1w3UrTlEiEOPhTHfrB6F7qV4AncLfyl6f" width="600">
       <br>
       <span>Figure 11: ROC Curves for Figures</span>
     </td>
@@ -282,7 +295,8 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.2\ComplexImage.jpg" width="500">
+      <img src="https://drive.google.com/uc?id=1q7IODxC_w1vHBXSBXaXGRMlAKpyNF3Gd
+" width="500">
       <br>
       <span>Figure 11: Complex M&M Image</span>
     </td>
@@ -301,7 +315,8 @@ Figure|Red|Orange|Blue|Green|Yellow|Brown|Total Count|
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.2\CIResult.png" width="700">
+      <img src="https://drive.google.com/uc?id=1LdlSS1fvEXhZAX9O6DvUwIoR-vkJq9Ul
+" width="700">
       <br>
       <span>Figure 12: M&M Image Complex Results</span>
     </td>
@@ -344,7 +359,7 @@ Figure|Total TP| Total FP| Total TN | Total FN|
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.2\Complex_Image_Confusion_Matrix.png" width="400">
+      <img src="https://drive.google.com/uc?id=1OpuQregaTAP4fJWCllp273V3EOn0hviG" width="400">
       <br>
       <span>Figure 13: Complex Image Confusion Matrix: </span>
     </td>
@@ -366,14 +381,14 @@ Figure|Precision|Recall|F1-Score|Accuracy|ROC-AUC
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.3\Comparing_ROC_Curves.png" width="600">
+      <img src="https://drive.google.com/uc?id=1kl_vqGEBC7au4m7Qj3yyruUUBDSgkVjI" width="600">
       <br>
       <span>Figure 14: Comparing ROC Curves for Simple Analysis and Complex Analysis</span>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="Images\3.3\Evaluation_Metric_Comparison_All.png" width="600">
+      <img src="https://drive.google.com/uc?id=1MwTM9GBGMxcAQarFDKXrpaBAzOTnX22_" width="600">
       <br>
       <span>Figure 15: Evaluation Metrics Comparison for Complex and Simple Analysis Figures</span>
     </td>
