@@ -10,7 +10,7 @@
 <center>Due December 20, 2024</center>
 
 \
-#**1. Introduction**
+#<b>1. Introduction</b>
 
 Image recognition (IR) is an integral part of modern artificial intelligence (AI) and and one of the most studied subfields of [computer vision](https://azure.microsoft.com/en-ca/resources/loud-computing-dictionary/what-is-computer-vision#object-classification) [[1]](#1)[[2]](#2). It enables machines to interpret and analyze visual information, which can come from a live camera feed or from pictures. IR is the foundation of numerous cyber-physical systems applications, from autonomous vehicles and facial recognition systems to healthcare diagnostics and industrial automation.
 
