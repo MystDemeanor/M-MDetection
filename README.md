@@ -2,14 +2,18 @@
 ### <center><b>AISE 3350A FW24: Cyber-Physical Systems Theory</b></center>
 
 <center>Group # 1:</center>
+
 <center>Gui Moraes Brant De Almeida: 251301839</center>
+
 <center>Joel Friesen Waldner: 251303569</center>
+
 <center>Addy Virk: 251311740</center>
+
 <center>Cristian Forero Duenas:250998245</center>
+
 <br>
 <center>Due December 20, 2024</center>
 
-\
 # <b>1. Introduction</b>
 
 Image recognition (IR) is an integral part of modern artificial intelligence (AI) and and one of the most studied subfields of [computer vision](https://azure.microsoft.com/en-ca/resources/loud-computing-dictionary/what-is-computer-vision#object-classification) [[1]](#1)[[2]](#2). It enables machines to interpret and analyze visual information, which can come from a live camera feed or from pictures. IR is the foundation of numerous cyber-physical systems applications, from autonomous vehicles and facial recognition systems to healthcare diagnostics and industrial automation.
