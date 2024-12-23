@@ -1,7 +1,6 @@
 ## <center><b> FastSAM Enabled M&M Detection and Counting</center>
-### <center><b>AISE 3350A FW24: Cyber-Physical Systems Theory</b></center>
 
-Group # 1
+# **Credits**
 
 Gui Moraes Brant De Almeida: 251301839\
 Joel Friesen Waldner: 251303569\
